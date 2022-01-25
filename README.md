@@ -37,7 +37,7 @@ sampctl package install alextwothousand/samp-mysql-r39
 Include in your code and begin using the library:
 
 ```pawn
-#include <samp-mysql-r39>
+#include <a_mysql_r39>
 ```
 
 ## Usage
