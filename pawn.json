@@ -1,0 +1,24 @@
+{
+	"user": "alextwothousand",
+	"repo": "samp-mysql-r39",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib"
+	],
+	"include_path": "include",
+	"resources": [
+        {
+            "name": "^mysql_static.so$",
+            "platform": "linux",
+            "archive": false,
+            "plugins": ["mysql_static.so"]
+        },
+        {
+            "name": "^mysql.dll$",
+            "platform": "windows",
+            "archive": false,
+            "plugins": ["mysql.dll"]
+        }
+    ]
+}
